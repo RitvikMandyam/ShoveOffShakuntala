@@ -1,0 +1,18 @@
+{
+  "solveTimeAntiDecayFactor": 2,
+  "challengeSchedule": [
+    {
+      "variable":  "maxOrderOfMagnitude",
+      "until":  1000,
+      "factor": 10,
+      "criteria": {
+        "increase": [
+          {
+            "criterion":  ">0.93",
+            "variable": "_attemptedQuestions / _correctQuestions"
+          }
+        ]
+      }
+    }
+  ]
+}
